@@ -21,7 +21,7 @@ export default function Branch2() {
         className="h-[45vh] sm:h-[50vh] md:h-[60vh] 
                    bg-cover bg-center flex items-center justify-center 
                    text-white px-4 text-center"
-        style={{ backgroundImage: "url('/campus-murto.webp')" }}
+        style={{ backgroundImage: "url('/Mbanner.webp')" }}
       >
         <motion.h1
           initial={{ opacity: 0, y: 20 }}

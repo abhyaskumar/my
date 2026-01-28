@@ -59,8 +59,8 @@ export default function Gallery() {
             initial={{ opacity: 0, x: 100 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
-            className="text-xl md:text-2xl lg:text-3xl font-semibold"
-          >
+            className="text-base sm:text-lg md:text-2xl lg:text-3xl font-bold px-4 py-2 text-center">
+        
             About / Gallery
           </motion.h1>
         </div>

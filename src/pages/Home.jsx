@@ -3,8 +3,10 @@ import { useState, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import AboutSection from "./AboutSection";
+import AchievementsSection from "./AchievementsSection";
 import AdmissionsSection from "./AdmissionsSection";
 import EventsSection from "./EventsSection";
+import SchoolPicnicSection from "./SchoolPicnicSection";
 import ContactSection from "./ContactSection";
 
 export default function Home() {
@@ -110,14 +112,17 @@ export default function Home() {
             </p>
 
             {/* BUTTONS */}
-            <div className="mt-8 flex gap-4 animate-fadeUp">
-              <button className="px-8 py-3 sm:px-10 rounded-xl bg-yellow-400 text-blue-900 font-bold shadow-xl hover:scale-110 transition-all duration-300">
+<div className="mt-8 flex gap-4 animate-fadeUp">
+  <a
+    href="https://forms.gle/WjTy8iux2H5dHMEa7"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="px-8 py-3 sm:px-10 rounded-xl bg-yellow-400 text-blue-900 font-bold shadow-xl hover:scale-110 transition-all duration-300 text-center"
+  >
+    Apply Now
+  </a>
+</div>
 
-                Apply Now
-
-              </button>
-
-            </div>
           </div>
         </section>
       )}
@@ -151,6 +156,10 @@ export default function Home() {
       {/* ---------- OTHER SECTIONS ---------- */}
       <div  className="px-3 sm:px-6 md:px-10 lg:px-20">
         <AboutSection />
+
+      </div>
+            <div data-aos="fade-left" data-aos-delay="300" className="px-3 sm:px-6 md:px-10 lg:px-20">
+        <AchievementsSection />
       </div>
 
       <div data-aos="fade-right" data-aos-delay="200" className="px-3 sm:px-6 md:px-10 lg:px-20">
@@ -159,6 +168,10 @@ export default function Home() {
 
       <div data-aos="fade-left" data-aos-delay="300" className="px-3 sm:px-6 md:px-10 lg:px-20">
         <EventsSection />
+      </div>
+
+       <div data-aos="fade-left" data-aos-delay="300" className="px-3 sm:px-6 md:px-10 lg:px-20">
+        <SchoolPicnicSection />
       </div>
 
       <div data-aos="zoom-in-up" data-aos-delay="400" className="px-3 sm:px-6 md:px-10 lg:px-20">
