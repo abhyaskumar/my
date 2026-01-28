@@ -62,7 +62,7 @@ export default function Home() {
       </Helmet>
     <div className="w-full overflow-hidden">
       {showIntro && (
-        <section className="relative w-full h-[80vh] md:h-screen flex flex-col items-center justify-center text-white px-4 overflow-hidden">
+        <section className="relative w-full h-[100vh] md:h-screen flex flex-col items-center justify-center text-white px-4 overflow-hidden">
 
           {/* Background */}
           <img
@@ -149,7 +149,7 @@ export default function Home() {
       )}
 
       {/* ---------- OTHER SECTIONS ---------- */}
-      <div data-aos="fade-up" data-aos-delay="100" className="px-3 sm:px-6 md:px-10 lg:px-20">
+      <div  className="px-3 sm:px-6 md:px-10 lg:px-20">
         <AboutSection />
       </div>
 
