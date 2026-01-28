@@ -62,8 +62,7 @@ export default function Introduction() {
           [clip-path:polygon(30%_0,100%_0,100%_100%,0%_100%)]
           md:[clip-path:polygon(20%_0,100%_0,100%_100%,0%_100%)]"
         >
-          <h1
-            className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-center px-2"
+        <h1 className="text-base sm:text-lg md:text-2xl lg:text-3xl font-bold px-4 py-2 text-center"
             data-aos="zoom-in"
             data-aos-delay="200"
           >

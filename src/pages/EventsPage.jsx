@@ -60,16 +60,20 @@ export default function EventsPage() {
         transition={{ duration: 0.8 }}
       >
         {/* Overlay */}
-        <motion.div
-          className="absolute right-0 top-0 h-full w-[35%] bg-blue-500/60 flex items-center justify-center text-white [clip-path:polygon(25%_0,100%_0,100%_100%,0%_100%)]"
-          initial={{ x: 100, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          transition={{ delay: 0.3, duration: 0.8 }}
-        >
-          <h1 className="text-3xl md:text-4xl font-bold px-6 py-3 tracking-wide shadow-lg">
-            Events Gallery
-          </h1>
-        </motion.div>
+<motion.div
+  className="absolute right-0 top-0 h-full 
+             w-[60%] sm:w-[50%] md:w-[40%] lg:w-[35%]
+             bg-blue-500/60 flex items-center justify-center 
+             text-white 
+             [clip-path:polygon(25%_0,100%_0,100%_100%,0%_100%)]"
+  initial={{ x: 100, opacity: 0 }}
+  animate={{ x: 0, opacity: 1 }}
+  transition={{ delay: 0.3, duration: 0.8 }}
+>
+<h1 className="text-base sm:text-lg md:text-2xl lg:text-3xl font-bold px-4 py-2 text-center">
+    Events Gallery
+  </h1>
+</motion.div>
       </motion.div>
 
       {/* Events Gallery */}

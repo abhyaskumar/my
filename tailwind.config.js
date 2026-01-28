@@ -9,6 +9,8 @@ export default {
       fontFamily: {
         playfair: ['"Playfair Display"', 'serif'],
         vibes: ['"Great Vibes"', 'cursive'],
+        heading: ['Poppins', 'sans-serif'],
+        body: ['Inter', 'sans-serif'],
       },
     },
   },
